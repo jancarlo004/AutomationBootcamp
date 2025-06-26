@@ -1,0 +1,7 @@
+gt-ui/libs filter=lfs diff=lfs merge=lfs -text
+gt-api/libs filter=lfs diff=lfs merge=lfs -text
+*.jar filter=lfs diff=lfs merge=lfs -text
+api/build/libs/api.jar filter=lfs diff=lfs merge=lfs -text
+gradle/wrapper/gradle.zip filter=lfs diff=lfs merge=lfs -text
+gradle/wrapper/gradle-8.2-bin.zip filter=lfs diff=lfs merge=lfs -text
+repository/ filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,10 @@
+{
+    "data": [
+        {
+            "basicInformation" : {
+                "RelationToInsured": ["Self/Insured","Injured Worker", "Supervisor", "Risk Manager", "Medical Provider", "HR Representative", "Agent", "Attorney", "Employee", "Spouse", "Child", "Parent", "Domestic partner", "Claimant", "Claimant's attorney", "Other", "Family member"] ,
+                "ReportingSource": ["Email", "External", "Fax", "Other", "Phone", "Risk Manager"]                      
+            }
+        }
+    ]
+}

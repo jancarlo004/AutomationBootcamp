@@ -1,0 +1,31 @@
+//Customer Layer file. Placeholder for customers to include additional gradle dependencies and tasks
+allprojects {
+    apply plugin: "java"
+    apply plugin: "java-library"
+    apply plugin: "idea"
+    java {
+        sourceCompatibility = JavaVersion.VERSION_11
+    }
+    repositories {
+        //Provide repositories from where dependencies can be fetch.
+        //Make sure those repositories are accessible from GWCP TC.
+        //GT uses dependenices from rool level repository folder.
+        //And adding central repository can change the way gradle fetches these dependencies.
+        maven { url file(project.rootDir.toString() + '/config/ext/repository') } //add this line for custom offline repos
+
+    }
+
+    dependencies {
+        //Add additional dependencies
+    }
+}
+
+subprojects {
+    // Add additional tasks for api / behavior sub-modules.
+    //if (name == 'behavior') {
+    //    tasks.register('sampleTask') {
+    //      println 'Hello world from behavior module!'
+    //    }
+    //}
+    //./gradlew :behavior:sampleTask  // This command can be used to run hello task from behavior module.
+}

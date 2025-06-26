@@ -1,0 +1,11 @@
+{
+  "PC_URL": "https://pc-dev-cpnormdev.cpnorima.zeta1-andromeda.guidewire.net/PolicyCenter.do",
+  "CC_URL": "http://localhost:8080/cc/ClaimCenter.do",
+  "BC_URL": "https://bc-dev-cpnormdev.cpnorima.zeta1-andromeda.guidewire.net/BillingCenter.do",
+  "CM_URL": "https://cm-dev-cpnormdev.cpnorima.zeta1-andromeda.guidewire.net/ContactManager.do",
+  "Jutro_SSO_URL": "",
+  "dev-test-location-pattern": "ui/tests/**/*.js",
+  "feature_location_pattern": "behavior/features/**/*.feature",
+  "glue_location_pattern": "behavior/steps/**/*.js",
+  "allow_insecure_app_urls": "true"
+}

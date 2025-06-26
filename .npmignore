@@ -1,0 +1,88 @@
+# Files to exclude when packaging gt-framework as a node module
+
+libs/
+scripts/
+ignite/
+gpm_artifacts/
+**/acceptancetests/*
+buildSrc/
+ui/libsWithPcfs
+**/build/*
+gradle/
+gradlew
+gradlew.bat
+load/test/
+api/suites/*.java
+behavior/suites/*.java
+
+config/
+**/build.gradle
+**/karate-config.js
+gradle.properties
+
+
+# Also exclude everything from .gitignore:
+
+# Compiled source #
+###################
+*.class
+
+# Test Data storage files #
+###########################
+**/*DataContainer.json
+
+# IDE files #
+#############
+.idea/*
+*.iml
+*.iws
+*.ipr
+
+# Build output directories #
+############################
+build/
+bin/
+out/
+/*/out
+/.gradle/
+/*/.gradle/
+/target/
+/*/target/
+/*/*/target/
+/test-output/
+/out/
+/*/out/
+/out.xml
+/classes/
+/results/
+.settings/
+*.project
+*.classpath
+**/log4j2.xml
+**/test-output/*
+gpm_artifacts/package.yml
+api/.gradle
+api/.idea
+api/**/build
+buildSrc/.gradle
+ui/node_modules
+node_modules
+testcafe-reporter-cucumber-json.json
+traceInfo.log
+licenses/
+
+# Mac OS X #
+############
+.DS_Store
+._*
+/repository/
+/api/xraysync/
+/buildSrc/build/
+/buildSrc/.gradle/
+/ui/xraysync/
+/ui/reports/
+/build/
+/reports/
+
+# GT-Load #
+############

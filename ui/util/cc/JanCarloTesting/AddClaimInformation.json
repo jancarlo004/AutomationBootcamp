@@ -1,0 +1,15 @@
+{
+    "data": [
+        {
+            "addClaimInformation" : {
+                "illnessResultToDeath": ["Yes"] ,
+                "MedicalAttentionRequired": ["Yes"] , 
+                "Severity": ["Minor", "Major"]  ,
+                "PrimaryInjuryType": ["Specific injury", "Occupational disease or cumulative injury", "Multiple injuries"],
+                "DetailedInjuryType": ["No Physical Injury", "Amputation", "Angina pectoris", "Burn", "Concussion", "Contusion", "Crushing", "Dislocation", "Electric shock", "Enucleation", "Foreign body", "Fracture", "Freezing", "Hearing loss or impairment", "Heat prostration", "Hernia", "Infection", "Inflammation", "Laceration", "Myocardial infarction", "Poisoning (not overdose or cumulative injury)", "Puncture", "Rupture", "Severance", "Sprain", "Strain", "Syncope", "Asphyxiation", "Vascular", "Vision Loss", "Other specific injury", "Adverse Reaction to Vaccination or Inoculation"],
+                "IndemnityExposure": ["Yes","No"] ,
+                "EmployerLiabilityExposure": ["Yes","No"]
+            }
+        }
+    ]
+}

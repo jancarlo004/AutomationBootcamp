@@ -1,13 +1,13 @@
-const firstNames = require('../../../util/cc/cincinnati/FirstName.json');
-const lastNames = require('../../../util/cc/cincinnati/LastName.json');
-const DateOfBirthAndTaxID = require('../../../util/cc/cincinnati/DateOfBirthAndtaxID.json')
+const firstNames = require('./FirstName.json');
+const lastNames = require('./LastName.json');
+const DateOfBirthAndTaxID = require('./DateOfBirthAndtaxID.json')
 const policyNumbers = require('./PolicyNumbers.json');
-const address = require('../../../util/cc/cincinnati/Address.json');
-const basicInformation = require('../../../util/cc/cincinnati/BasicInformation.json');
-const injury = require('../../../util/cc/cincinnati/Injury.json');
-const addClaimInfo = require('../../../util/cc/cincinnati/AddClaimInformation.json');
-const injuryType = require('../../../util/cc/cincinnati/InjuryType.json');
-const bodyParts = require('../../../util/cc/cincinnati/BodyPartDetails.json');
+const address = require('./Address.json');
+const basicInformation = require('./BasicInformation.json');
+const injury = require('./Injury.json');
+const addClaimInfo = require('./AddClaimInformation.json');
+const injuryType = require('./InjuryType.json');
+const bodyParts = require('./BodyPartDetails.json');
 
 
 export class TestDataGenerators {

@@ -1,5 +1,5 @@
 import { PcfButton, PcfComponent, PcfListView, PcfSelectInput } from "@gtui/gt-ui-framework";
-import { PcfRadioButton } from "../../../pages/cc/components/PcfRadioButton";
+import { PcfRadioButton } from "../components/PcfRadioButton";
 
 export class AddActivityPages{
     claimMenuActionsNewActivity = PcfComponent("#Claim-ClaimMenuActions-ClaimMenuActions_NewActivity");

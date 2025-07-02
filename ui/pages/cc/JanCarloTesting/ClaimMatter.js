@@ -1,5 +1,5 @@
 import { PcfComponent, PcfTextInput, PcfSelectInput, PcfDateValueInput, PcfButton, PcfListView } from "@gtui/gt-ui-framework";
-import { PcfRadioButton } from "../../../pages/cc/components/PcfRadioButton";
+import { PcfRadioButton } from "../components/PcfRadioButton";
 
 export class ClaimMatter {
     claimSummaryClaimMatters = PcfComponent("#Claim-MenuLinks-Claim_ClaimMatters");

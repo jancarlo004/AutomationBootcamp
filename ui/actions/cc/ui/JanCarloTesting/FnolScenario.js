@@ -1,8 +1,8 @@
 import { FNOLWizard } from "../../../../pages/gw/generated/claimcenter/pages/claim/FNOLWizard"; 
-import { FnolWizard_Ext } from "../../../../pages/cc/cincinnati/FnolWizard_Ext.js"
+import { FnolWizard_Ext } from "../../../../pages/cc/JanCarloTesting/FnolWizard_Ext.js"
 import { ClaimTabBar } from "../../../../pages/gw/generated/claimcenter/pages/navigation/tabBar/ClaimTabBar"
 import { NewClaimSaved } from "../../../../pages/gw/generated/claimcenter/pages/other/NewClaimSaved";
-import { TestDataGenerators } from "../../../../util/cc/cincinnati/TestDataGenerators.js";
+import { TestDataGenerators } from "../../../../util/cc/JanCarloTesting/TestDataGenerators.js";
 import {t} from "testcafe";
 // import world from "../../../util/cc/cincinnati/world.js";
 import { PcfComponent, PcfSelectInput } from "@gtui/gt-ui-framework";

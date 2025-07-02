@@ -1,6 +1,6 @@
 {
   "PC_URL": "https://pc-dev-cpnormdev.cpnorima.zeta1-andromeda.guidewire.net/PolicyCenter.do",
-  "CC_URL": "http://localhost:8080/cc/ClaimCenter.do",
+  "CC_URL": "https://cc-dev-cpnormdev.cpnorima.zeta1-andromeda.guidewire.net/ClaimCenter.do",
   "BC_URL": "https://bc-dev-cpnormdev.cpnorima.zeta1-andromeda.guidewire.net/BillingCenter.do",
   "CM_URL": "https://cm-dev-cpnormdev.cpnorima.zeta1-andromeda.guidewire.net/ContactManager.do",
   "Jutro_SSO_URL": "",
